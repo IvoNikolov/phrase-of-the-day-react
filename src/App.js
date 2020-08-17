@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Phrase from './Phrase/Phrase'
 
 
 class App extends Component {
@@ -9,6 +10,7 @@ class App extends Component {
         <header className="App-header">
           <h1>Phrase of the day</h1>
         </header>
+        <Phrase></Phrase>
       </div>
     );
   }
