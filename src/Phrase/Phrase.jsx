@@ -6,10 +6,10 @@ const phraseArray = [
     'We know what we are, but know not what we may be.'
 ];
 
-const phrase = () => {
+const phrase = (props) => {
     return(
         <div>
-            <p>{phraseArray[2]}</p>
+            <p>{phraseArray[props.phraseNumber]}</p>
         </div>
     )
 }
